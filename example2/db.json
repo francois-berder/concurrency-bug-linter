@@ -1,0 +1,17 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-Wall",
+            "-Wextra",
+            "-DHELLO",
+            "-O2",
+            "-o",
+            "example",
+            "main.c"
+        ],
+        "directory": "/home/francois/projects/findbugs/c-impl/example2",
+        "file": "main.c"
+    }
+]
+

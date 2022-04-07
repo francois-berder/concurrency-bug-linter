@@ -1,0 +1,4 @@
+[
+{"name": "threadA", "line": 3, "file": "example2/main.c"},
+{"name": "threadB", "line": 9, "file": "example2/main.c"}
+]
