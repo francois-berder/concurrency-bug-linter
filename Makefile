@@ -3,7 +3,7 @@ OBJDIR := $(BUILDDIR)/obj
 DEPDIR := $(BUILDDIR)/dep
 BINDIR := $(BUILDDIR)/bin
 
-TARGET := $(BINDIR)/concurrency-bug-detector
+TARGET := $(BINDIR)/concurrency-bug-linter
 SRCS := src/main.c src/function.c src/cJSON.c
 
 OBJS := $(SRCS:src/%.c=$(OBJDIR)/%.o)

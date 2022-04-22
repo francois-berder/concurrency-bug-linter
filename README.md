@@ -1,4 +1,4 @@
-# Concurrency bug detector
+# Concurrency bug linter
 
 The goal of this program is to highlight variables that are shared by multiple threads. The use of those variables could potentially be the root cause of a concurrency bug.
 Note that this tool does **not** point out bugs. You will have to manually triage warnings.
@@ -23,6 +23,6 @@ Before running this program, you will need two things:
 To run this program:
 
 ```sh
-$ ./concurrency-bug-detector <thread-config-file> <compile-commands>
+$ ./concurrency-bug-linter <thread-config-file> <compile-commands>
 ```
 
