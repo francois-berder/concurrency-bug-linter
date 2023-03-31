@@ -9,10 +9,11 @@ Before your first build, run `git submodule init && git submodule update`, then 
 
 Before running this program, you will need two things:
 
-  - provide a list of threads in a JSON file
-  - provide a [compilation database](https://clang.llvm.org/docs/JSONCompilationDatabase.html) file
+- provide a list of threads in a JSON file
+- provide a [compilation database](https://clang.llvm.org/docs/JSONCompilationDatabase.html) file
 
   So let's assume the program to be analyzed contains two threads: `threadA` and `threadB`, then the thread configuration file can look like:
+
 ```json
 [
     {"name":"threadA", "file":"absolute-path-to-my-file", "line":23},
@@ -23,6 +24,6 @@ Before running this program, you will need two things:
 To run this program:
 
 ```sh
-$ ./concurrency-bug-linter <thread-config-file> <compile-commands>
+./concurrency-bug-linter <thread-config-file> <compile-commands>
 ```
 
